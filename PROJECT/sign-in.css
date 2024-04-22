@@ -1,0 +1,117 @@
+body{
+    background-image: url(./images/logoto.jpg);
+    background-repeat: no-repeat;
+    background-size: 1967px;
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sign {
+    border: solid 1px none;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.form{
+    margin-left: 400px;
+    border: 0px solid;
+    background-color: rgb(137, 43, 226);
+    width: 600px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+    height: 700px;
+    animation-name: peter;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes peter {
+    from {background-color: blue;}
+    to {background-color: rgb(255, 47, 54);}
+
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: brown;
+}
+a {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+    
+}
+img{
+    height: 50px;
+    
+}
+
+
+.logo{
+    margin-right: 1200px;
+    height: 150px;
+    border: opx solid;
+    border-radius: 200px 200px 200px;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin-top: 10px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-top: 5px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-basis: 100%;
+    }
+}

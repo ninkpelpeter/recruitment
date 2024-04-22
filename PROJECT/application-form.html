@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobs form </title>
+    <link rel="stylesheet" href="jobform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: #8CB9BD; font-family:sans-serif; font-size: 1em">
+    <div class="form">
+        <h1>APPLICATION FORM</h1>
+    </div>
+    <header> 
+		<h1>SignUp Portal</h1> 
+	</header> 
+	<nav> 
+		<ul> 
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="user.html">Jobs</a></li> 
+			<li><a href="signUp.html">Companies</a></li> 
+			<li><a href="about.html">About Us</a></li> 
+			<li><a href="contact.html">Contact</a></li> 
+		</ul> 
+		
+	</nav> 
+    <form action="#" method="POST" enctype="multipart/form-data">
+       <div class="name1">
+        <span>
+            <label for="name" style="margin-left: 5%;">Name*</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Enter name" required>
+            
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="email" class="email" placeholder="Enter email" required>
+        
+            <label for="tel">Phone Number*</label>
+            <input type="tel" name="tel" class="tel" maxlength="10" id="tel" placeholder="Enter phone number" required>
+
+        <label for="position">Position</label>
+        <select name="position" class="position" id="position" required>
+            <option value="">Select a position you are applying for</option>
+            <option value="">Software Developer</option>
+            <option value="">Graphic Designer</option>
+            <option value="">Electrical Engineer</option>
+            <option value="">Mechanical Engineer</option>
+        </select>
+    </span>
+    </div>
+        
+       <div class="dis">
+        <label id="Email">How many years of experience do you have?</label><br>
+            <input type="radio" id="exp1" name="experience" value="1">
+        <label for="exp1">1</label><br>
+            <input type="radio" id="exp2" name="experience" value="2">
+        <label for="exp2">2</label><br>
+            <input type="radio" id="exp3" name="experience" value="3">
+        <label for="exp3">3</label><br>
+            <input type="radio" id="exp4" name="experience" value="4">
+        <label for="exp4">4</label><br>
+            <input type="radio" id="expmore4" name="experience" value="more4">
+        <label for="expmore4">More than 4</label><br><br>
+        
+        <label for="cover">Cover Letter</label>
+             <textarea name="cover" class="cover" id="cover" placeholder="Please tell us why you're a good fit for this position and why you want to work with us" rows="5" required></textarea>
+        
+        <label id="file">Resume</label><br>		
+        <input type="file" name="file" class="file" required><br>
+        <small>Please upload your resume in PDF format</small><br><br>
+        
+        <input name="submit" type="submit" value="Submit">
+    </div> 
+    </form>
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>About Us</h3>
+                <p>Transforming HR and Productivity in Ghana.
+                    Find-Job Ghana was established in Ghana in 2023 with the aim of digitizing Human Resources and Transforming Productivity in Ghana..</p>
+            </div>
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: info@example.com<br>Phone: 123-456-7890</p>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <div class="social-media">
+                    <a href="application-form.html"> <img src="./images/facebook.png" alt="icon"></a>
+                    <a href="application-form.html"> <img src="./images/instagram.png" alt="icon"></a>
+                    <a href="application-form.html"> <img src="./images/twitter.png" alt="icon"></a>
+                    <a href="application-form.html"> <img src="./images/whatsapp.png" alt="icon"></a>
+                    
+                 </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

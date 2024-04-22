@@ -1,0 +1,254 @@
+body{
+    background-color: #fff;
+    font-family: Roboto,  sans-serif;
+}
+.search-job{
+         min-width:400px;
+        text-decoration: underline overline;
+        text-underline-offset: 2px;   
+        font-family: ui-monospace; 
+        margin-top: -2%;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+}
+.big-container{
+    border: solid 1px whitesmoke;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+}
+
+.sub-container{
+    border: #fff solid;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    margin-top: -50px;
+}
+
+.create-sign{
+    text-align: right;
+    text-decoration: none;
+    margin-top: -60px;
+}
+.create-sign .create{
+    border: solid 1px none;
+    border-radius: 10px;
+    background-color: rgb(255, 157, 0);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+}
+.create-sign .sign{
+    border: solid 1px bisque;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 251);
+    color: #0c0a0a;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #5755FE;
+}
+li{
+    float: left;
+}
+.find img {
+border: solid 1px rgb(232, 221, 221);
+height: 50px;
+width: fit-content;
+
+}
+
+.contain-header{
+text-align: center;
+}
+li a{
+    display: block;
+    padding: 14px 50px;
+    text-align: center;
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.contain-title{
+    text-align: center;
+    border: solid 1px none;
+    background-color: rgb(233, 237, 240);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(76, 71, 71);
+}
+
+.contain-search input{
+    padding: 10px;
+    width: 300px;
+    outline: none;
+}
+.logo img {
+    border: solid 1px rgb(208, 204, 204);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: -5%;
+}
+
+.contain-search a {
+    background-color: #137adb;
+    color: white;
+text-decoration: none;
+padding: 10px;
+}
+
+
+.update-block{
+    border: solid 1px rgb(244, 237, 237);
+    width: 600px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+h3 a {
+    text-decoration: none;
+}
+.post {
+    text-align: center;
+    color: #1f3137;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details {
+    background-color: #8B93FF;
+    
+}
+
+
+.sect{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    color: #b0b6bc;
+    
+  }
+  .too{
+    text-align: center;
+    line-height: 5px;
+    color: rgb(236, 227, 227);
+  }
+  h4{
+    color: rgb(210, 195, 195);
+    font-size: 1em;
+    line-height: 30px;
+  }
+  
+
+  .social-media a img{
+    border: solid 1px none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+  }
+  .social-media a img:hover{
+    background-color: #003a70;
+  }
+
+  .contain{
+  border: solid;
+  border-radius: 30px;
+  border-color: aliceblue;
+  background-color: rgb(127, 23, 224);
+  color: white;
+  height: 350px;
+  width: 350mm;
+  margin-right: 10%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.solution{
+    float: right;
+    height: 200px;
+    width: 400px;
+  }
+  .btn{
+    background-color: white;
+    color: rgb(18, 17, 17);
+    font-family:  Roboto, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: #0d035c;
+  }
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin-top: 10px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-top: 5px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-basis: 100%;
+    }
+}
